@@ -1,4 +1,4 @@
-package Ejs_10;
+package Ejs_10_Prueba;
 
 import java.io.*;
 
@@ -33,7 +33,7 @@ public class LanzadorFichero {
 
     public static void agregarDatos() throws IOException {
         String dir = System.getProperty("user.dir");
-        ProcessBuilder pb = new ProcessBuilder( "java", "Ejs_10.LeerFichero");
+        ProcessBuilder pb = new ProcessBuilder( "java", "Ejs_10_Prueba.LeerFichero");
         File directorio = new File(dir + "/out/production/Ejs_java_PS");
         pb.directory(directorio);
 

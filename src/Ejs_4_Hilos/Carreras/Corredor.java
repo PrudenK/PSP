@@ -1,4 +1,4 @@
-package Ejs_4.Carreras;
+package Ejs_4_Hilos.Carreras;
 
 import java.util.Random;
 
@@ -8,6 +8,7 @@ public class Corredor extends Thread{
 
     public void run() {
         Random r = new Random();
+        long starTime = System.currentTimeMillis();
         for (int i = 0; i < 1500; i++) {
             try {
                 Thread.sleep(r.nextInt(3));
@@ -17,6 +18,6 @@ public class Corredor extends Thread{
             distancia++;
         }
         posicion++;
-        System.out.println(getName()+" ha terminado la carrera, posición -> "+posicion);
+        System.out.println(getName()+" ha terminado la carrera, posición -> "+posicion+ " ha tardado "+(System.currentTimeMillis()-starTime)+" milisegundos");
     }
 }

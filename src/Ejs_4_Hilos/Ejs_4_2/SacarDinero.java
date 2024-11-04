@@ -1,4 +1,4 @@
-package Ejs_4.Ejs_4_2;
+package Ejs_4_Hilos.Ejs_4_2;
 
 public class SacarDinero extends Thread{
     private Cuenta c;
@@ -6,8 +6,10 @@ public class SacarDinero extends Thread{
         this.c = c;
     }
     public void run(){
-        for (int i = 0; i < 1000; i++) {
-            c.retirarDinero(1,getName());
+        for (int i = 0; i < 10; i++) {
+            synchronized (c) {
+                c.retirarDinero(2, getName());
+            }
         }
     }
 }

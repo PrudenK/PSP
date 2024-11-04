@@ -1,4 +1,4 @@
-package Ejs_4.Ejs_4_1;
+package Ejs_4_Hilos.Ejs_4_1;
 
 public class Hilo1_2 extends Thread{
     private static int numeroComun;

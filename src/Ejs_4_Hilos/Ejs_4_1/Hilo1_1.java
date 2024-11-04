@@ -1,4 +1,4 @@
-package Ejs_4.Ejs_4_1;
+package Ejs_4_Hilos.Ejs_4_1;
 
 public class Hilo1_1 extends Thread{
     public Hilo1_1(String nom){

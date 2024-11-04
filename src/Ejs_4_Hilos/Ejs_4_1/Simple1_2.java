@@ -1,6 +1,6 @@
-package Ejs_4.Ejs_4_1;
+package Ejs_4_Hilos.Ejs_4_1;
 
-import static Ejs_4.Ejs_4_1.Hilo1_2.getNumeroComun;
+import static Ejs_4_Hilos.Ejs_4_1.Hilo1_2.getNumeroComun;
 
 public class Simple1_2 {
     public static void main(String[] args) {

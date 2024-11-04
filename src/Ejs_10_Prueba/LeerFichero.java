@@ -1,4 +1,4 @@
-package Ejs_10;
+package Ejs_10_Prueba;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package Ejs_4.Ejs_4_1;
+package Ejs_4_Hilos.Ejs_4_1;
 
 public class HiloEjemplo1_1 {
     public static void main(String[] args) throws InterruptedException {

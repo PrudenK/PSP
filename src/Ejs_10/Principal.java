@@ -6,7 +6,7 @@ public class Principal {
     public static void main(String[] args) throws IOException {
         String dir = System.getProperty("user.dir");
         ProcessBuilder pb = new ProcessBuilder( "java", "Ejs_10.ValidarMail");
-        File directorio = new File(dir + "/out/production/untitled");
+        File directorio = new File(dir + "/out/production/Ejs_java_PS");
         pb.directory(directorio);
 
 

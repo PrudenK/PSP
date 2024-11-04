@@ -1,9 +1,9 @@
-package Ejs_4.Ejs_4_2;
+package Ejs_4_Hilos.Ejs_4_2;
 
 public class Principal {
     public static void main(String[] args) {
-        Cuenta c = new Cuenta(10000);
-        SacarDinero juan = new SacarDinero(c);
+        Cuenta c = new Cuenta(100);
+        IngresarDinero juan = new IngresarDinero(c);
         juan.setName("Juan");
         SacarDinero ana = new SacarDinero(c);
         ana.setName("Ana");
@@ -11,6 +11,5 @@ public class Principal {
 
         juan.start();
         ana.start();
-
     }
 }
