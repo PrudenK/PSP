@@ -10,7 +10,7 @@ public class PilaPLatos {
     public void lavar(Plato plato){
         if(hayEspacioDisponible()){
             listaPlatos.push(plato);
-            System.out.println("Plato lavado #"+plato.getNumPlato()+", total en pila: "+listaPlatos.size());
+            System.out.println("-----Plato lavado #"+plato.getNumPlato()+", total en pila: "+listaPlatos.size());
         }
 
     }
