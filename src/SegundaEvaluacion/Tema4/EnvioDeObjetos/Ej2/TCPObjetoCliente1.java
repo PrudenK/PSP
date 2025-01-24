@@ -4,7 +4,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
-import static SegundaEvaluacion.Tema4.EnvioDeObjetos.Ej2.TCPObjetoServidor1.pausa;
+import static FunAux.Pausa.pausa;
+
 
 public class TCPObjetoCliente1 {
     static final String Host = "localhost";
@@ -38,4 +39,5 @@ public class TCPObjetoCliente1 {
             System.err.println(e.getMessage());
         }
     }
+
 }

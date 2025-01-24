@@ -5,6 +5,8 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import static FunAux.Pausa.pausa;
+
 public class TCPObjetoServidor1 {
     static final int Puerto = 2025;
     public static void main(String[] args) {
@@ -40,11 +42,4 @@ public class TCPObjetoServidor1 {
 
     }
 
-    public static void pausa(){
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }
 }

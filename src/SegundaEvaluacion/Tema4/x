@@ -1,0 +1,1244 @@
+/home/pruden/.jdks/corretto-21.0.5/bin/java -javaagent:/opt/idea/lib/idea_rt.jar=35305:/opt/idea/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /media/pruden/ExtremeSSD/2DAM/PSP_/Tema_1/Ejs/Ejs_java_PS/out/production/Ejs_java_PS:/home/pruden/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.0.21/kotlin-stdlib-jdk8-2.0.21.jar:/home/pruden/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar:/home/pruden/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/pruden/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.0.21/kotlin-stdlib-jdk7-2.0.21.jar SegundaEvaluacion.Tema4.Ej304
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home - info64.org</title>
+
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png" />
+        <link rel="manifest" href="/static/icons/site.webmanifest" />
+        <link rel="mask-icon" href="/static/icons/safari-pinned-tab.svg" color="#556c72" />
+        <link rel="shortcut icon" href="/static/icons/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#00aba9" />
+        <meta name="msapplication-config" content="/static/icons/browserconfig.xml" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="stylesheet" href="/static/CACHE/css/output.02d1f326e1da.css" type="text/css">
+
+        <script src="/static/js/cookieconsent.min.js" data-cfasync="false"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="menu" class="row">
+                <!--<div class="col-md-12">-->
+                    <nav class="navbar navbar-default navbar-top" role="navigation">
+                      <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="/"><img width="100" height="52" src="/static/img/info64org_logo_100_v2.png" alt="logo de la federacion" title="info64.org" /></a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="main-navbar">
+                          <ul class="nav navbar-nav first">
+                            <li class="active"><a href="/">Home</a></li>
+                            <li ><a href="/calendar">Calendar</a></li>
+
+                            <li ><a href="/search">Search tournaments</a></li>
+                            <li ><a href="/search-player">Search players</a></li>
+                            <li ><a href="/search-game">Search games</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
+
+                                <ul class="dropdown-menu">
+
+                                        <li><a href="/info/cookies/">Configuración y política de cookies</a></li>
+
+                                        <li><a href="/info/descargas/">Descargas</a></li>
+
+                                        <li><a href="/info/documentacion/">Documentación y manuales</a></li>
+
+                                        <li><a href="/info/novedades/">Novedades</a></li>
+
+                                        <li><a href="/info/preguntas-frecuentes/">Preguntas frecuentes (FAQ)</a></li>
+
+                                        <li><a href="/info/privacidad/">Política de privacidad de datos</a></li>
+
+                                        <li><a href="/info/sobre-esto/">Sobre esto</a></li>
+
+                                        <li><a href="/info/vega-orion/">Vega y Orion</a></li>
+
+                                </ul>
+                            </li>
+                          </ul>
+                          <ul class="nav navbar-nav navbar-right second">
+                            <li><a href="https://www.vegachess.com">Vegachess</a></li>
+                            <li><a href="https://www.feda.org">FEDA</a></li>
+                            <li><a href="https://www.fibda.com">FIBDA</a></li>
+                            <li><a href="https://fideamerica.net">FIDE America</a></li>
+                            <li><a href="https://www.fide.com">FIDE</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+
+                                        <li >
+                                            <a href="?hl=ca">
+                                                    Català
+                                            </a>
+                                        </li>
+
+                                        <li class="active">
+                                            <a href="?hl=en">
+                                                    English
+                                            </a>
+                                        </li>
+
+                                        <li >
+                                            <a href="?hl=es">
+                                                    Español
+                                            </a>
+                                        </li>
+
+                                        <li >
+                                            <a href="?hl=eu">
+                                                    Euskara
+                                            </a>
+                                        </li>
+
+                                        <li >
+                                            <a href="?hl=gl">
+                                                    Galego
+                                            </a>
+                                        </li>
+
+                                </ul>
+                            </li>
+
+                                <li>
+                                    <a href="/accounts/login/">
+                                        Login
+                                    </a>
+                                </li>
+
+
+                          </ul>
+
+                        </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                    </nav>
+                <!--</div /.12 -->
+            </div><!-- /.menu -->
+
+            <div class="row" id="content">
+
+              <div class="row" id="breadcrumb">
+                  <div class="col-md-12">
+
+
+
+
+
+
+
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+
+<div class="main" id="index">
+
+
+
+
+
+    <ul class="nav nav-tabs nav-justified">
+      <li role="presentation" class="active">
+        <a href="#home">View individual tournaments <span class="glyphicon glyphicon-user"></span> </a>
+      </li>
+      <li role="presentation">
+        <a href="/team/">View team tournaments <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> </a>
+      </li>
+    </ul>
+
+    <div id="home">
+
+
+      <div class="row">
+        <div class="col-md-6" id="playing">
+          <table class="table table-stripped">
+              <thead>
+                <tr>
+                  <th colspan="3" class="text-center">
+                    Playing
+                  </th>
+                </tr>
+                <tr>
+                  <th>Name</th>
+                  <th data-hide="phone">City</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                  <tr>
+                      <td>
+                          <a href="/50-abierto-internacional-ciudad-de-sevilla">
+                              50 Abierto Internacional Ciudad de SEVILLA
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-10</span> - <span class="mommentdate short">2025-01-18</span>
+                      </td>
+                      <td>
+                        Sevilla (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-15T22:33:24+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/femenino-albacete-2025">
+                              Femenino Albacete 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-25</span>
+                      </td>
+                      <td>
+                        La Felipa (Albacete) (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-15T20:15:37+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/absoluto-albacete-2025">
+                              Absoluto Albacete 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-25</span>
+                      </td>
+                      <td>
+                        La Felipa (Albacete) (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-15T20:14:17+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/xvi-torneo-pueblo-nuevo-martes-y-jueves">
+                              XVI Torneo Pueblo Nuevo  Martes y Jueves (id Fide 402627)
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-07</span> - <span class="mommentdate short">2025-01-30</span>
+                      </td>
+                      <td>
+                        Calle Alava, 14. Madrid (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-15T09:27:20+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/torneo-pub-chicago">
+                              Torneo Pub Chicago
+                          </a> <br/>
+                          <span class="mommentdate short">2024-12-16</span> - <span class="mommentdate short">2025-01-27</span>
+                      </td>
+                      <td>
+                        Alicante (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-14T21:20:53+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionat-de-mallorca-de-veterans-s50-2025">
+                              Campionat de Mallorca de Veterans S50 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                        Palma (Illes Balears) (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-14T17:24:40+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-infantil-masculino-clasificatorio-dgd-2025">
+                              Campeonato Infantil Masculino Clasificatorio DGD 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                        Vega de San Mateo (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-14T09:18:09+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-infantil-femenino-clasificatorio-dgd-2025">
+                              Campeonato Infantil Femenino Clasificatorio DGD 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                        Vega de San Mateo (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-14T08:52:11+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionat-de-mallorca-de-veterans-s65-2025">
+                              Campionat de Mallorca de Veterans S65 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                        Palma (Illes Balears) (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-14T00:00:52+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/ctl-provincial-absoluto-valladolid-2025">
+                              CTL Provincial Absoluto Valladolid 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-03-23</span>
+                      </td>
+                      <td>
+                        Valladolid (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T21:59:12+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/i-liga-rr-club-ajedrez-gambito-de-guada">
+                              I liga RR Club Ajedrez Gambito de Guada
+                          </a> <br/>
+                          <span class="mommentdate short">2024-10-17</span> - <span class="mommentdate short">2025-06-06</span>
+                      </td>
+                      <td>
+                        Guadalajara (ESP) <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2024-11-28T09:23:56+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+              </tbody>
+          </table>
+
+
+
+        </div>
+
+        <div class="col-md-6" id="future">
+          <table class="table table-stripped">
+              <thead>
+                <tr>
+                  <th colspan="3" class="text-center">
+                    Not started
+                  </th>
+                </tr>
+                <tr>
+                  <th>Name</th>
+                  <th data-hide="phone">City</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                  <tr>
+                      <td>
+                          <a href="/uja-preuniversitario">
+                              UJA Preuniversitario Linares
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-17</span> - <span class="mommentdate short">2025-01-17</span>
+                      </td>
+                      <td>
+                          Linares (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-13T22:04:34+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/vi-campeonato-de-espana-juvenil-online-fedc">
+                              VI Campeonato de España Juvenil Online FEDC
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-17</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                          ONLINE LICHESS (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T13:03:21+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/deporte-escolar-murcia-2025-open">
+                              Deporte Escolar Murcia 2025 - Open
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-17</span> - <span class="mommentdate short">2025-02-14</span>
+                      </td>
+                      <td>
+                          San Javier (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T19:28:10+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/ii-torneo-de-ajedrez-s-sebastian-camarma-de-esteruelas-2025">
+                              II Torneo de Ajedrez S. Sebastián Camarma de Esteruelas  2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-17</span> - <span class="mommentdate short">2025-01-17</span>
+                      </td>
+                      <td>
+                          Camarma de Esteruelas (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T22:08:56+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-de-invierno-grupo-a-avanzado-asssa-enric-valor">
+                              CAMPEONATO DE INVIERNO “GRUPO A (Avanzado)” ASSSA ENRIC VALOR
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-17</span> - <span class="mommentdate short">2025-03-21</span>
+                      </td>
+                      <td>
+                          ALICANTE (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-10T19:36:49+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-de-invierno-grupo-b-base-asssa-enric-valor">
+                              CAMPEONATO DE INVIERNO “GRUPO B (Base)” ASSSA ENRIC VALOR
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-17</span> - <span class="mommentdate short">2025-03-21</span>
+                      </td>
+                      <td>
+                          ALICANTE (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-10T19:37:38+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-de-invierno-grupo-c-base-asssa-enric-valor">
+                              CAMPEONATO DE INVIERNO “GRUPO C (Base)” ASSSA ENRIC VALOR
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-17</span> - <span class="mommentdate short">2025-03-21</span>
+                      </td>
+                      <td>
+                          ALICANTE (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-10T19:38:16+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionatos-provinciais-de-ourense-2025-sub-8">
+                              Campionato Provincial Ourense 2025 Sub8
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-18</span>
+                      </td>
+                      <td>
+                          Ourense (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T19:33:39+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionato-provincial-ourense-2025-sub14">
+                              Campionato Provincial Ourense 2025 Sub14
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-18</span>
+                      </td>
+                      <td>
+                          Ourense (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T19:39:22+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionato-provincial-ourense-2025-sub18">
+                              Campionato Provincial Ourense 2025 Sub18
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-18</span>
+                      </td>
+                      <td>
+                          Ourense (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T19:41:33+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionato-provincial-ourense-2025-sub10">
+                              Campionato Provincial Ourense 2025 Sub10
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-18</span>
+                      </td>
+                      <td>
+                          Ourense (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T19:42:46+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/circuito_judex_nacional_2025_inscritos">
+                              Circuito_JUDEX_Nacional_2025_INSCRITOS
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-02-22</span>
+                      </td>
+                      <td>
+                          Extremadura (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2024-12-28T18:39:58+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-lugo-2025-sub-14">
+                              Provincial Lugo 2025 Sub 14
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                          Lugo (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-12T21:26:34+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-lugo-2025-sub-18">
+                              Provincial Lugo 2025 Sub 18
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                          Lugo (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-12T21:37:10+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionato-provincial-de-pontevedra-2025-sub16">
+                              Campionato Provincial de Pontevedra 2025 sub16
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                          Vilagarcía (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T20:28:13+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-municipal-absoluto-de-ajedrez-de-san-sebastian-de-los-reyes">
+                              Campeonato Municipal Absoluto de Ajedrez de San Sebastian de los Reyes
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-18</span>
+                      </td>
+                      <td>
+                          San Sebastian de los Reyes (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T23:01:20+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-a-coruna-2025-absoluto">
+                              Provincial A Coruna 2025 absoluto
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-01-19</span>
+                      </td>
+                      <td>
+                          Noia (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-15T23:53:33+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/crdee-toledo-prebenjamin">
+                              CRDEE Toledo - Prebenjamin
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-02-01</span>
+                      </td>
+                      <td>
+                          IES El Greco (Toledo) (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-14T13:23:29+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/crdee-toledo-benjamin">
+                              CRDEE Toledo - Benjamin
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-02-01</span>
+                      </td>
+                      <td>
+                          IES El Greco (Toledo) (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-14T13:21:29+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/crdee-toledo-infantil-1">
+                              CRDEE Toledo - Infantil
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-18</span> - <span class="mommentdate short">2025-02-01</span>
+                      </td>
+                      <td>
+                          IES El Greco (Toledo) (ESP)
+                          <br/>
+                          <abbr title="Last updated">Upd.</abbr>
+                          <span class="mommentdate human">
+                            2025-01-14T18:10:42+01:00
+                          </span>
+
+                      </td>
+                  </tr>
+
+              </tbody>
+          </table>
+
+          <nav class="text-center">
+              <ul class="pagination">
+
+
+                      <li class="active"><a href="?pf=1">1</a></li>
+
+                      <li class=""><a href="?pf=2">2</a></li>
+
+                      <li class=""><a href="?pf=3">3</a></li>
+
+                      <li class=""><a href="?pf=4">4</a></li>
+
+                      <li class=""><a href="?pf=5">5</a></li>
+
+                      <li class=""><a href="?pf=6">6</a></li>
+
+
+
+                      <li> <a href="?pf=2">&raquo;</a></li>
+
+              </ul>
+          </nav>
+
+
+
+        </div>
+
+
+        <div class="col-md-6" id="finished">
+          <table class="table table-stripped">
+              <thead>
+                <tr>
+                  <th colspan="3" class="text-center">
+                    Recently finished
+                  </th>
+                </tr>
+                <tr>
+                  <th>Name</th>
+                  <th data-hide="phone">City</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                  <tr>
+                      <td>
+                          <a href="/xii-torneo-de-ajedrez-acd-jeyma">
+                              XII Torneo de Ajedrez ACD Jeyma
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        Bolaños de Calatrava (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T19:50:36+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-lugo-2025-sub-12">
+                              Provincial Lugo 2025 Sub 12
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        Lugo (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T19:25:18+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-lugo-2025-absoluto">
+                              Provincial Lugo 2025 Absoluto
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        Lugo (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T19:32:07+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/ix-torneo-de-nadal-xadrez-mos-sub-2400">
+                              IX Torneo de Nadal Xadrez Mos sub 2400
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        Mos (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T21:43:07+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/ix-torneo-de-nadal-xadrez-mos-sub-1800">
+                              IX Torneo de Nadal Xadrez Mos sub 1800
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        Mos (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T21:42:13+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/i-torneo-internacional-femenino-diputacion-de-sevilla">
+                              I Torneo Internacional Femenino DIPUTACION de SEVILLA
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        Sevilla (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T18:45:08+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/torneo-relampago-el-greco-enero-2025">
+                              Torneo relámpago El Greco. Enero 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        Zaragoza (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T18:07:39+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-a-coruna-2025-sub10">
+                              Provincial A Coruna 2025 sub10
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        A Pobra do Caraminal (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T19:04:23+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-sub8-a-coruna-2025">
+                              Provincial sub8 A Coruna 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-12</span> - <span class="mommentdate short">2025-01-12</span>
+                      </td>
+                      <td>
+                        A Pobra do Caraminal (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-12T19:11:22+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/provincial-lugo-2025-sub-8">
+                              Provincial Lugo 2025 Sub 8
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Lugo (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T19:06:18+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionato-provincial-a-coruna-2025-sub-12">
+                              CAMPIONATO PROVINCIAL A CORUÑA 2025 SUB-12
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Ferrol (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T19:07:24+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campionato-provincial-a-coruna-2025-sub-16">
+                              CAMPIONATO PROVINCIAL A CORUÑA 2025 SUB-16
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Ferrol (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T19:06:22+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/i-torneo-ano-nuevo-ajedrizate-sub-1800">
+                              I Torneo Ano Nuevo Ajedrizate Sub 1800
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Cartagena (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T19:49:27+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-de-asturias-relampago-2025">
+                              Campeonato de Asturias Relampago Individual 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Gijon (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T21:16:17+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/iii-campeonato-infantil-peralta-cat-azul">
+                              III Campeonato Infantil Peralta Cat Azul
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Peralta (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T19:58:20+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/iii-campeonato-peralta-cat-verde">
+                              III Campeonato Infantil Peralta Cat Verde
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Peralta (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T20:00:20+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/i-torneo-local-pizzeria-el-lenador">
+                              I Torneo Local Pizzeria El Leñador
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        Valdepeñas (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T14:09:36+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/torneo-invierno-cave-2025">
+                              TORNEO INVIERNO CAVE 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        CASARES (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T13:02:08+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/cerrado-campeonato-escolar">
+                              Cerrado Campeonato Escolar
+                          </a> <br/>
+                          <span class="mommentdate short">2025-01-11</span> - <span class="mommentdate short">2025-01-11</span>
+                      </td>
+                      <td>
+                        San Lorenzo de El Escorial (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T21:25:48+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                          <a href="/campeonato-de-ajedrez-individuales-de-lanzarote-abs-vet-fem-y-juv">
+                              Campeonato Ajedrez Absoluto, Veterano, Femenino y Juvenil Lanzarote 2025
+                          </a> <br/>
+                          <span class="mommentdate short">2024-11-08</span> - <span class="mommentdate short">2025-01-10</span>
+                      </td>
+                      <td>
+                        Lanzarote (ESP)
+                        <br/>
+                        <abbr title="Last updated">Upd.</abbr>
+                        <span class="mommentdate human">
+                          2025-01-11T09:25:41+01:00
+                        </span>
+
+                      </td>
+                  </tr>
+
+              </tbody>
+          </table>
+
+
+          <nav class="text-center">
+              <ul class="pagination">
+
+
+                      <li class="active"><a href="?pn=1">1</a></li>
+
+                      <li class=""><a href="?pn=2">2</a></li>
+
+                      <li class=""><a href="?pn=3">3</a></li>
+
+                      <li class=""><a href="?pn=4">4</a></li>
+
+                      <li class=""><a href="?pn=5">5</a></li>
+
+                      <li class=""><a href="?pn=6">6</a></li>
+
+                      <li class=""><a href="?pn=7">7</a></li>
+
+                      <li class=""><a href="?pn=8">8</a></li>
+
+
+
+                      <li> <a href="?pn=2">&raquo;</a></li>
+
+              </ul>
+          </nav>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            <a href="/search" class="btn btn-primary"
+                style="white-space: normal;">
+              Search more tournaments using the search page
+              <span class="glyphicon glyphicon-search"></span>
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+</div>
+
+                </div>
+              </div>
+            </div>
+            <div id="footer" class="row">
+              <div id="footercontent" class="container-fluid">
+                <div class="col-md-12">
+                    <p>Federaci&oacute;n Espa&ntilde;ola de Ajedrez - Federaci&oacute;n Iberoamericana de Ajedrez - Coslada 10-4. 28028 Madrid</p>
+                    <a class="go-to-top" href="#top">go to top <span class="glyphicon glyphicon-chevron-up"></span></a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <script src="/static/CACHE/js/output.386002d847a2.js"></script>
+
+
+
+
+    </body>
+</html>
+
+Process finished with exit code 0
